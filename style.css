@@ -8,7 +8,7 @@
 .BG{
     height: 100vh;
     width: 100%;
-    background-image: url(../Portfolio/BG.jpg);
+    background-image: url(./Assets/BG.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -322,7 +322,7 @@ nav .fas{
 /* --------------css for small screens--------- */
 @media only screen and (max-width: 600px){
     .hero{
-        background-image: url(..//Portfolio/BG-fon.jpg);
+        background-image: url(./Assets/BG-fon.jpg);
     }
     .content{
         margin-top: 45%;
