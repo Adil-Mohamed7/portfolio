@@ -319,66 +319,6 @@ footer p i{
 nav .fas{
     display: none;
 }
-/* --------------css for small screens--------- */
-@media only screen and (max-width: 600px){
-    .hero{
-        background-image: url(./Assets/BG-fon.jpg);
-    }
-    .content{
-        margin-top: 45%;
-    }
-    .content h1{
-        font-size: 30px;
-        opacity: 0;
-        animation: 1s ease forwards;
-        animation-delay: 2.1s;
-    }
-    .content h3{
-        font-size: 20px;
-    }
-    nav i{
-        display: block;
-        font-size: 25px;
-
-    }
-    nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: 555px;
-        width: 190px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-    }
-    nav ul li{
-        display: block;
-        margin: 20px;
-    }
-    nav ul .fas{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .btn2{
-        display:block;
-        background-color: black;
-        color: #f9004d;
-        text-decoration: none;
-        border: 2px solid transparent;
-        font-weight: bold;
-        padding: 10px 10px;
-        border-radius: 30px;
-        transition: transform .4s;
-    }
-    .btn2 :hover{
-        transform: scale(1.2);
-        color: black;
-        background-color: transparent;
-        border-color: #f9004d;
-    }
-}
 
 @keyframes slideTop {
     0% {
